@@ -17,7 +17,7 @@ function(){
 
 			val += op;
 			txt_result.value += op;
-			console.log("www"  + val);
+			console.log(val);
 		}else{
 			
 		
@@ -25,6 +25,7 @@ function(){
 				var top_of_stack = stack[stack.length-1];
 				if(val=="" && top_of_stack != op  ){
 					stack[stack.length-1] = op;
+					txt_result.value = txt_result.value.substr(0, txt_result.value.length-1) + "" + op
 				}else{
 
 				
