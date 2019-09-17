@@ -1,0 +1,44 @@
+Please fill in answers to the questions below:
+
+
+1. What's your name?
+Gaurav Tripathi
+
+2. What hostname did you deploy to?
+hw02.webassembly.site
+
+3. What's the link to your repository on github with your code?
+https://github.com/tripathi-gaurav/cs5610-hw02.git
+
+4. How many HTML / CSS tutorial exercises did you do?
+Around 50
+
+5. How comfortable do you feel with HTML and CSS now?
+Quite comfortable
+
+6. How many JS tutorial exercises did you do?
+Around 15
+
+7. How comfortable do you feel with JS now?
+6/10
+
+8. Do all of your HTML pages pass the W3C HTML validator?
+(https://validator.w3.org/)
+Yes
+
+9. Which parts of this assignment did you have trouble with, if any?
+With the logic for changing the state machine using stack. 
+Should have used string manipulations instead.
+
+
+
+
+And here's a list of tasks for grading comments. Just leave this here:
+ - Task 1
+ - Task 2
+ - Task 3
+ - Task 4
+ - Task 5
+ - Task 6
+ - Task 7
+ - Task 8
