@@ -22,10 +22,10 @@ function(){
 			
 		
 			if(stack.length == 2){
-				//var top_of_stack = stack[stack.length-1];
-				//if( top_of_stack != op && op != '+' ){
-					//stack[stack.length-1] = op;
-				//}else{
+				var top_of_stack = stack[stack.length-1];
+				if(val=="" && top_of_stack != op  ){
+					stack[stack.length-1] = op;
+				}else{
 
 				
 				var operand_one = parseFloat(val);
@@ -51,7 +51,7 @@ function(){
 					stack.push( op );
 					txt_result.value = stack[0] + "" + stack[1];
 					val = "";
-				//}
+				}
 			}else{
 				//if( stack.length > 0 ){	
 					var operand_one = parseFloat(val);
